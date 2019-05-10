@@ -1,12 +1,12 @@
 <template>
     <div>
-            <li>{{roll.title}}:{{roll.author}}</li>   
+            <li>{{book.title}}:{{book.author}}</li>   
     </div>
 </template>
 <script>
     export default {
         name: 'BookItem',
-        props: ['roll']
+        props: ['book']
     }
 </script>
 <style>

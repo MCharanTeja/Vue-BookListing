@@ -2,7 +2,7 @@
     <div>
         <h1>{{ title }}</h1>
         <ul>
-            <li v-for="book in books">{{book.title}} : {{book.author}}</li>
+            <li v-for="book in books">{{book.title}}:{{book.author}}</li>
         </ul>    
     </div>
 </template>
@@ -13,9 +13,9 @@
             return {
                 title: 'All Books',
                 books: [
-                    {title: 'Season 1',author: 'Jon Snow'},
-                    {title: 'Season 2',author: 'Tyrion Lannister'},
-                    {title: 'Season 3',author: 'Nights Watch'},
+                            {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+                            {title: 'American Gods', author: 'Neil Gaiman'},
+                            {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
                 ]
             }
         }

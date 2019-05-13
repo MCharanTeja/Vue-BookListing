@@ -9,7 +9,7 @@
 </template>
 <script>
     export default {
-        name: 'BookItem',
+        name: 'BookForm',
         props: ['book'],
         data() {
             return {
